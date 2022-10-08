@@ -1,0 +1,38 @@
+$font-primary: 'Albert Sans', sans-serif;
+$font-secondary: 'Inter', sans-serif;
+
+// Default Font Settings
+body,
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  font-family: $font-secondary;
+  letter-spacing: $letter-spacing;
+  color: $--color-black;
+}
+
+// body background
+body {
+  background-image: url(../img/hero-background.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+// badge 
+.klb-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: .8125rem;
+  font-weight: 600;
+  height: 1.375rem;
+  padding-left: .4375rem;
+  padding-right: .4375rem;
+  color: $slate9;
+  background-color: $slate3;
+  border-radius: $border-radius-small;
+  user-select: none;
+}

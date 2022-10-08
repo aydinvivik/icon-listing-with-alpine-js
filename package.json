@@ -1,0 +1,25 @@
+{
+  "name": "klb-icons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "dev": "parcel",
+    "build": "parcel build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "@parcel/transformer-sass": "2.7.0",
+    "parcel": "^2.7.0",
+    "sass": "^1.55.0"
+  },
+  "dependencies": {
+    "alpinejs": "^3.10.3",
+    "copy-to-clipboard": "^3.3.2",
+    "install": "^0.13.0"
+  }
+}

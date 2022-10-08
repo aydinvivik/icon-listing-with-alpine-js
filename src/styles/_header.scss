@@ -1,0 +1,60 @@
+.site-header {
+  position: relative;
+  padding-top: 1.875rem;
+  @include min-break(1024) {
+    padding-top: 3.125rem;
+  }
+  // container
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @include min-break(1024) {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+  // site-brand
+  .site-brand {
+    display: inline-flex;
+    align-items: center;
+    flex-shrink: 0;
+    a {
+      display: inline-flex;
+      align-items: center;
+      font-family: $font-secondary;
+      font-size: 1.25rem;
+      font-weight: 700;
+      letter-spacing: -0.04em;
+      white-space: nowrap;
+      color: currentColor;
+      @include min-break(1024) {
+        font-size: 1.25rem;
+      }
+      svg {
+        position: relative;
+        width: 1.375rem;
+        top: -1px;
+        margin-right: .5rem;
+      }
+    }
+    .klb-badge {
+      position: relative;
+      margin-left: .9375rem;
+      top: 1px;
+    }
+  }
+  // header text
+  .header-text {
+    p {
+      display: flex;
+      align-items: center;
+      font-size: .9375rem;
+      color: $slate11;
+      svg {
+        fill: $--color-black;
+        margin: 0 5px;
+      }
+    }
+  }
+}
