@@ -52,7 +52,6 @@ Alpine.data("klbIcons", () => ({
   },
 
   init() {
-    console.log(this.$refs.wrapper)
     /* this.$watch("search", value => {
       this.filterIcons(value);
     }) */
